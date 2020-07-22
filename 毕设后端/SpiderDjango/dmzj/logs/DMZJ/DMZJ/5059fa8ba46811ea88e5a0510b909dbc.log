@@ -1,0 +1,62 @@
+2020-06-02 08:30:54 [scrapy.utils.log] INFO: Scrapy 2.0.0 started (bot: dmzj)
+2020-06-02 08:30:54 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Windows-10-10.0.18362-SP0
+2020-06-02 08:30:54 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2020-06-02 08:30:54 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'dmzj',
+ 'DOWNLOAD_DELAY': 3,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'logs\\DMZJ\\DMZJ\\5059fa8ba46811ea88e5a0510b909dbc.log',
+ 'NEWSPIDER_MODULE': 'dmzj.spiders',
+ 'SPIDER_MODULES': ['dmzj.spiders']}
+2020-06-02 08:30:54 [scrapy.extensions.telnet] INFO: Telnet Password: bcebe248dac58a8d
+2020-06-02 08:30:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-06-02 08:30:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-06-02 08:30:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-06-02 08:30:54 [py.warnings] WARNING: d:\python\lib\site-packages\scrapy\utils\project.py:90: ScrapyDeprecationWarning: Use of environment variables prefixed with SCRAPY_ to override settings is deprecated. The following environment variables are currently defined: JOB, LOG_FILE, SLOT, SPIDER
+  warnings.warn(
+
+2020-06-02 08:30:55 [scrapy.middleware] INFO: Enabled item pipelines:
+['dmzj.pipelines.DmzjPipeline']
+2020-06-02 08:30:55 [scrapy.core.engine] INFO: Spider opened
+2020-06-02 08:30:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-06-02 08:30:55 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-06-02 08:30:55 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "d:\python\lib\site-packages\scrapy\core\engine.py", line 127, in _next_request
+    request = next(slot.start_requests)
+  File "D:\PythonPrograms\毕设后端\SpiderDjango\dmzj\dmzj\spiders\dmzj-spider.py", line 18, in start_requests
+    yield scrapy.http.Request(url=self.url, callback=self.first_url_parse)
+  File "d:\python\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\lib\site-packages\scrapy\http\request\__init__.py", line 68, in _set_url
+    raise ValueError('Missing scheme in request url: %s' % self._url)
+ValueError: Missing scheme in request url: 
+2020-06-02 08:30:55 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-06-02 08:30:55 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.014985,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 6, 2, 0, 30, 55, 86692),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'start_time': datetime.datetime(2020, 6, 2, 0, 30, 55, 71707)}
+2020-06-02 08:30:55 [scrapy.core.engine] INFO: Spider closed (finished)

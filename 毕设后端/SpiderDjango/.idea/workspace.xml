@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24ad527e-a1a3-4040-b5c1-d0edd48d217f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aigoBSUTZ80NOqulufnkZS8n9b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dmzj" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SpiderDjango" type="Python.DjangoServer" factoryName="Django server">
+      <module name="SpiderDjango" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="SpiderDjango.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24ad527e-a1a3-4040-b5c1-d0edd48d217f" name="Default Changelist" comment="" />
+      <created>1587224000278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587224000278</updated>
+      <workItem from="1587224001745" duration="9171000" />
+      <workItem from="1587267300494" duration="4670000" />
+      <workItem from="1587381402075" duration="5170000" />
+      <workItem from="1587474869591" duration="628000" />
+      <workItem from="1587475860220" duration="3711000" />
+      <workItem from="1587534654354" duration="9221000" />
+      <workItem from="1588048325985" duration="488000" />
+      <workItem from="1588048824606" duration="16000" />
+      <workItem from="1589178702513" duration="24000" />
+      <workItem from="1591023266348" duration="1862000" />
+      <workItem from="1591057556165" duration="5834000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="537" y="234" key="FileChooserDialogImpl" timestamp="1589246777433">
+      <screen x="0" y="0" width="1440" height="960" />
+    </state>
+    <state x="537" y="234" key="FileChooserDialogImpl/0.0.1440.960@0.0.1440.960" timestamp="1589246777433" />
+    <state width="1670" height="347" key="GridCell.Tab.0.bottom" timestamp="1591086324767">
+      <screen x="0" y="0" width="1728" height="1152" />
+    </state>
+    <state width="1244" height="277" key="GridCell.Tab.0.bottom/0.0.1440.960@0.0.1440.960" timestamp="1587276428398" />
+    <state width="1670" height="347" key="GridCell.Tab.0.bottom/0.0.1728.1152@0.0.1728.1152" timestamp="1591086324767" />
+    <state width="1670" height="347" key="GridCell.Tab.0.center" timestamp="1591086324767">
+      <screen x="0" y="0" width="1728" height="1152" />
+    </state>
+    <state width="1244" height="277" key="GridCell.Tab.0.center/0.0.1440.960@0.0.1440.960" timestamp="1587276428398" />
+    <state width="1670" height="347" key="GridCell.Tab.0.center/0.0.1728.1152@0.0.1728.1152" timestamp="1591086324767" />
+    <state width="1670" height="347" key="GridCell.Tab.0.left" timestamp="1591086324767">
+      <screen x="0" y="0" width="1728" height="1152" />
+    </state>
+    <state width="1244" height="277" key="GridCell.Tab.0.left/0.0.1440.960@0.0.1440.960" timestamp="1587276428398" />
+    <state width="1670" height="347" key="GridCell.Tab.0.left/0.0.1728.1152@0.0.1728.1152" timestamp="1591086324767" />
+    <state width="1670" height="347" key="GridCell.Tab.0.right" timestamp="1591086324767">
+      <screen x="0" y="0" width="1728" height="1152" />
+    </state>
+    <state width="1244" height="277" key="GridCell.Tab.0.right/0.0.1440.960@0.0.1440.960" timestamp="1587276428398" />
+    <state width="1670" height="347" key="GridCell.Tab.0.right/0.0.1728.1152@0.0.1728.1152" timestamp="1591086324767" />
+  </component>
+</project>
