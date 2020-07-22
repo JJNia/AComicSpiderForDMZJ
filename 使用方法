@@ -1,0 +1,8 @@
+1.启动scrapyd
+	1）打开命令提示符，进入爬虫目录下 dmzj/，输入scrapyd启动
+	2）scrapyd-deploy Spider_Server -p DMZJ
+	3）curl http://localhost:6800/schedule.json -d project=DMZJ -d spider=DMZJ
+2.启动Django
+	直接点击运行 端口8000
+3.启动vue
+Npm run serve 端口8080
